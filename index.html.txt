@@ -1,0 +1,62 @@
+  <h4><u>Tableau Report</u></h4>
+  <div class="main_div main_cen">
+    <div class="item">
+      <img src="download (1).jpg">
+      <p>Production</p>
+    </div>
+    <div class="item">
+      <img src="download (2).jpg">
+      <p>HR</p>
+    </div>
+    <div class="item">
+      <img src="download (1).jpg">
+      <p>Planning</p>
+    </div>
+    <div class="item">
+      <img src="download (2).jpg">
+      <p>Account</p>
+    </div>
+    <div class="item">
+      <img src="bridge.jpg">
+      <p>Sales</p>
+    </div>
+    <div class="item">
+      <img src="bridge.jpg">
+      <p>Costing</p>
+    </div>
+  </div>
+//css//
+.main_div {
+
+  display:flex;
+  flex-wrap: wrap;
+  justify-content: center;
+ 
+  
+}
+.item{
+  flex:0 0 calc(33.33%);
+
+}
+.main_div img {
+  width: 80%;
+  margin-top: 5%;
+  height: 200px;
+   box-shadow: 10px 10px 5px rgb(0,0,0,0.2);
+  margin-left: 10%;
+  transition: 0.4s;
+}
+.main_div p {
+  text-align: center;
+  font-weight: bold;
+}
+h4 {
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+.main_div img:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2); 
+  transform: scale(0.9);
+  transition: 0.4s;
+}
